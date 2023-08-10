@@ -1,0 +1,20 @@
+.right{
+    width: 100%;
+    height: 55em;
+    overflow:hidden;
+    background-color: rgb(135, 135, 236);
+    z-index: 1;
+    
+}
+.crd{
+    margin-top: 7rem;
+    height: 19rem;
+    padding: 1rem;
+    margin-left: 10rem;
+    z-index: 5
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+}

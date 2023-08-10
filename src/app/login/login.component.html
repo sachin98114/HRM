@@ -1,0 +1,33 @@
+<div class="d-flex main">
+    <div class="left">
+        <div class="text-primary d-flex justify-content-center mt-5">
+            <h3>HMA</h3>
+        </div>
+        <div class="card crd" style="width: 26rem;">
+            <div class="card-body">
+                <h5 class="card-title d-flex justify-content-center">Welcome Back!</h5>
+                <form action="#" [formGroup]="login" (ngSubmit)="sigin()">
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Email id" formControlName="email">
+                            <span style="color: red;" *ngIf="(loginControl.email.touched || submitted) && loginControl.email.errors">Email is required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password"></label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" formControlName="password">
+                        <span style="color: red;" *ngIf="(loginControl.password.touched || submitted) && loginControl.password.errors">password is required</span>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+
+        
+    </div>
+</div>

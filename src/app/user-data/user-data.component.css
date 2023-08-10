@@ -1,0 +1,51 @@
+
+table,tr,td{
+    border: 1px solid black;
+    padding: 1rem;
+    border-color: antiquewhite;
+    padding: 2rem;
+}
+.left{
+    background-color: rgb(65, 65, 230);
+    height: 100%;
+    color: white;
+}
+.right{
+    margin-left: 4rem;
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+.client{
+    gap: 50rem;
+}
+.table{
+    margin-top: 6rem;
+}
+.inp{
+   border-radius: 1rem;
+   width: 17rem;
+   background-color: aliceblue;
+   border-color:aliceblue;
+   padding: 6px;
+}
+.gap{
+    justify-content: space-between;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 1rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
